@@ -1,0 +1,69 @@
+/* MENU */
+
+#menu a{
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(0, 136, 255);
+
+}
+
+#menu button{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* CAROUSEL */
+
+.carousel-inner{
+    max-height: 40rem;
+}
+
+
+
+/* Fuentes */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* MEDIAS */
+
+/* pantalla chica */
+
+@media (max-width: 768px){
+    #introduccion{
+        width: 90%;
+    }
+.serviciosfilas{
+    width: 100% !important;
+    text-align: center;
+}
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>PaginaPrueba</title>
+</head>
+<body>
+
+<!--Encabezado-->
+<header class="container-fluid bg-primary d-flex justify-content-center py-3">
+    <p class="text-light mb-0 fs-5">Bienvenidos</p>
+</header>
+
+<!--Menu-->
+<nav class="navbar navbar-expand-lg bg-light p-4">
+    <div class="container">
+        <a class="navbar-brand" href="#"><span class="text-primary fs-4 fw-bold">PruebaPagina</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="..." aria-label="Email">
+                <button class="btn btn-primary" type="button">Búsqueda</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!--Carousel-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./img/foto1ca.jpg" class="d-block w-100" alt="slide1">
+        </div>
+        <div class="carousel-item">
+            <img src="./img/foto2ca.jpg" class="d-block w-100" alt="slide2">
+        </div>
+        <div class="carousel-item">
+            <img src="./img/foto3ca.jpg" class="d-block w-100" alt="slide3">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+
+<!--Introduccion-->
+<section class="container my-5 text-center" id="introduccion">
+    <h1 class="text-primary p-4 fs-2 border-top border-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, nisi?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo consectetur sapiente quasi ad veniam ut praesentium assumenda, quis deleniti amet.</p>
+</section>
+
+<!--Tarjetas-->
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="./img/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Servicio1</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="./img/card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Servicio2</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="./img/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Servicio3</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<!--Nuestro Compromiso-->
+<section class="container my-5">
+    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <h2 class="text-primary">Nuestro Compromiso</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus velit atque expedita? Provident necessitatibus repudiandae distinctio cumque similique iure in minima velit deleniti ipsam! Tenetur, tempore iusto. Nulla dignissimos placeat esse quasi quisquam ipsam eius at est voluptatum possimus, exercitationem numquam error, doloremque maxime reiciendis facere architecto debitis. Officiis, aspernatur :</p>
+            <ul>
+                <li class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, commodi.</li>
+                <li class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus deserunt sunt minus officia. Expedita.</li>
+                <li class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio ex odit.</li>
+                <li class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, tempore.</li>
+            </ul>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <img src="img/compromiso.jpg" class="img-fluid" alt="Nuestro Compromiso">
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d210176.85978582312!2d-58.5762094!3d-34.6038218!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc966bf151d67%3A0x255fef772508e89c!2sUTN.BA!5e0!3m2!1ses-419!2sar!4v1697387106981!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h3 class="text-primary">Encuéntrenos</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti iure tenetur dicta, repellat ea blanditiis eos voluptates, accusamus delectus, nisi rerum unde facere a quos saepe recusandae quasi iusto sint. Eligendi velit maiores, voluptas tenetur ullam itaque non est facere?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos voluptatibus adipisci quos! Rem laborum et eius ea. Ratione eaque velit dolores deleniti nulla sunt tempora neque architecto, alias fugit vel.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, corrupti minima id eos possimus unde temporibus excepturi harum fugiat non.</p>
+        </div>
+    </div>
+</div>
+
+<!--JavaScript de Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!--Footer-->
+<footer class="bg-primary py-3 mt-3">
+    <div class="container text-light text-center">
+        <p class="display-6 mb-3">PruebaPagina</p>
+        <small class="text-white-50">Copyright by Alejo. All rights reserved.</small>
+    </div>
+</footer>
+
+</body>
+</html>
